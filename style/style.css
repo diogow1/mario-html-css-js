@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+.score {
+  width: 900px;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+}
+
+
+.key{
+  color: aliceblue;
+  margin-left: 4px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .game {
   width: 1000px;
   height: 600px;
@@ -37,7 +51,7 @@
     right: -90px;
   }
   to{
-    right: 100%;
+    right: 1060px;
   }
 }
 
@@ -49,7 +63,7 @@
 }
 
 .jump {
-  animation: marioAnimation 650ms ease-in-out;
+  animation: marioAnimation 650ms linear;
 }
 
 @keyframes marioAnimation {
